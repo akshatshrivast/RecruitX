@@ -9,7 +9,7 @@ import DisplayTechIcons from "./DisplayTechIcons";
 
 
 const InterviewCard = async ({
-  interviewId,
+  id,
   userId,
   role,
   type,
@@ -19,12 +19,12 @@ const InterviewCard = async ({
   const feedback = null  as Feedback || null;
   const normalizedType = /mix/gi.test(type) ? "Mixed" : type;
 
-  const badgeColor =
-    {
-      Behavioral: "bg-light-400",
-      Mixed: "bg-light-600",
-      Technical: "bg-light-800",
-    }[normalizedType] || "bg-light-600";
+  // const badgeColor =
+  //   {
+  //     Behavioral: "bg-light-400",
+  //     Mixed: "bg-light-600",
+  //     Technical: "bg-light-800",
+  //   }[normalizedType] || "bg-light-600";
 
   const formattedDate = dayjs(
     feedback?.createdAt || createdAt || Date.now()
@@ -83,8 +83,8 @@ const InterviewCard = async ({
             <Link
               href={
                 feedback
-                  ? `/interview/${interviewId}/feedback`
-                  : `/interview/${interviewId}`
+                  ? `/Interview/${id}/feedback`
+                  : `/Interview/${id}`
               }
             >
               {feedback ? "Check Feedback" : "View Interview"}
