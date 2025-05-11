@@ -32,7 +32,7 @@ const page =async () => {
           </p>
 
           <Button asChild className="btn-primary max-sm:w-full">
-            <Link href="/Interview">Start an Interview</Link>
+            <Link href="/Interview">Generate an Interview</Link>
           </Button>
         </div>
 
