@@ -3,6 +3,10 @@
   <p>
     <i>An intelligent, interactive, and personalized platform designed to make interview preparation more engaging, effective, and future-ready.</i>
   </p>
+
+  <a href="https://recruit-x-phi.vercel.app/" target="_blank">
+    🌐 <b>Live Demo</b>
+  </a>
 </div>
 
 ---
