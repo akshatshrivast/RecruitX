@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>🚀 Recruit-X: AI-Powered Interview Preparation for the Modern Job Seeker</h1>
+  <p>
+    <i>An intelligent, interactive, and personalized platform designed to make interview preparation more engaging, effective, and future-ready.</i>
+  </p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## ✨ Overview
+**Recruit-X** is a cutting-edge, web-based platform that transforms how candidates prepare for interviews.  
+It combines **Next.js, React, and Tailwind CSS** on the frontend with a **Node.js + Firebase** backend to deliver a smooth, secure, and personalized user experience.  
 
+By leveraging **Google Gemini API** and **VAPI voice technology**, Recruit-X generates **dynamic, AI-driven mock interviews** tailored to each user’s **role, experience level, and tech stack**.  
+From greeting the user to crafting job-specific questions, it makes interview prep feel more like a conversation than a chore.
+
+---
+
+## 🧠 Key Features
+- **🎯 Personalized Interviews** – AI generates role-specific and skill-relevant questions in real time.  
+- **💬 Interactive Practice** – Practice answers and receive instant feedback to track your progress.  
+- **🔐 Secure Access** – Firebase Authentication for safe login and data handling.  
+- **⚡ Seamless Deployment** – Hosted on **Vercel** for speed, scalability, and zero-downtime updates.
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**  
+- Next.js  
+- React.js  
+- Tailwind CSS  
+
+**Backend:**  
+- Node.js  
+- Firebase  
+
+**AI & Voice Tech:**  
+- Google Gemini API  
+- VAPI Voice Technology  
+
+**Deployment:**  
+- Vercel  
+
+---
+
+## 📌 Why Recruit-X Matters
+Recruit-X isn’t just another interview prep tool—it’s **an intelligent assistant** that:  
+- Understands your career goals  
+- Adapts to your skills and needs  
+- Helps you perform with confidence when it matters most  
+
+By merging **AI** with **cloud infrastructure**, Recruit-X sets a **new standard** for interview preparation platforms—scalable, user-friendly, and future-ready.
+
+---
+
+## 🖥️ How to Run Locally
+
+Follow these steps to set up Recruit-X on your local machine:
+
+1️⃣ **Clone the Repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/recruit-x.git
+cd recruit-x
