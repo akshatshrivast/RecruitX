@@ -49,12 +49,12 @@ From greeting the user to crafting job-specific questions, it makes interview pr
 ---
 
 ## 📌 Why Recruit-X Matters
-Recruit-X isn’t just another interview prep tool—it’s **an intelligent assistant** that:  
+Recruit-X isn’t just another interview prep tool it’s **an intelligent assistant** that:  
 - Understands your career goals  
 - Adapts to your skills and needs  
 - Helps you perform with confidence when it matters most  
 
-By merging **AI** with **cloud infrastructure**, Recruit-X sets a **new standard** for interview preparation platforms—scalable, user-friendly, and future-ready.
+By merging **AI** with **cloud infrastructure**, Recruit-X sets a **new standard** for interview preparation platforms scalable, user friendly, and future-ready.
 
 ---
 
